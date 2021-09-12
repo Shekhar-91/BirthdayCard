@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:text="Happy Birthday, FRIEND!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="16dp"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="From SHEKHAR"
+        android:fontFamily="sans-serif-light"
+        android:paddingRight="8dp"
+        android:paddingBottom="16dp"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>
